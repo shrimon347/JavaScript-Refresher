@@ -1,7 +1,7 @@
 # JavaScript-Refresher for React and also for begginers 
 
 # Table of content ( click to navigate )
-- [let & const](#let & const)
+- [let & const](#let-&-const)
 
 
 </br>
