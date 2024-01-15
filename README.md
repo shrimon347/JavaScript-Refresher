@@ -1,17 +1,17 @@
 # JavaScript-Refresher
 
 # Table of content ( click to navigate )
-- [let & const](#let-&-const)
+- [let & const](#let-and-const)
 - [ES6 Arrow Functions](#ES6-Arrow-Functions)
-- [Exports & Imports](#Exports-&-Imports)
+- [Exports & Imports](#Exports-and-Imports)
 - [Classes](#Classes)
-- [Spread & Rest Operator](#Spread-&-Rest-Operator)
+- [Spread & Rest Operator](#Spread-and-Rest-Operator)
 - [Destructuring](#Destructuring)
 
 
 </br>
 
-# let & const
+# let and const
 
 <code>let</code>  and <code>const</code> basically replace var . You use <code>let</code>  instead of var  and <code>const</code>  instead of var  if you plan on never re-assigning this "variable" (effectively turning it into a constant therefore). </br>
 </br>
@@ -106,7 +106,7 @@ const returnMe = name => {
 }
 ```
 
-# Exports & Imports
+# Exports and Imports
 In React projects (and actually in all modern JavaScript projects), you split your code across multiple JavaScript files - so-called modules. You do this, to keep each file/ module focused and manageable.
 
 To still access functionality in another file, you need <code>export</code>  (to make it available) and <code>import</code>  (to get access) statements.
@@ -211,7 +211,7 @@ person.printMyName();
 console.log(person.species); // prints 'human'
 ```
 
-# Spread & Rest Operator
+# Spread and Rest Operator
 The spread and rest operators actually use the same syntax: ... 
 
 Yes, that is the operator - just three dots. It's usage determines whether you're using it as the spread or rest operator.
