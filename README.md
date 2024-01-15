@@ -8,7 +8,8 @@
 
 # let & const
 
-let  and const  basically replace var . You use let  instead of var  and const  instead of var  if you plan on never re-assigning this "variable" (effectively turning it into a constant therefore). </br>
+<code>let</code>  and const  basically replace var . You use let  instead of var  and const  instead of var  if you plan on never re-assigning this "variable" (effectively turning it into a constant therefore). </br>
+</br>
 let : The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
 
 ```js
