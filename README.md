@@ -51,3 +51,53 @@ An arrow function expression is a compact alternative to a traditional function 
 - Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
 - Arrow functions cannot use yield within their body and cannot be created as generator functions.
 
+Arrow function syntax may look strange but it's actually simple.
+
+```js
+function callMe(name) { 
+    console.log(name);
+}
+```
+which you could also write as:
+
+```js
+const callMe = function(name) { 
+    console.log(name);
+}
+```
+becomes: 
+
+```js
+const callMe = (name) => { 
+    console.log(name);
+}
+```
+Important: 
+
+When having no arguments, you have to use empty parentheses in the function declaration:
+
+```js
+const callMe = () => { 
+    console.log('Max!');
+}
+```
+When having exactly one argument, you may omit the parentheses:
+
+```js
+const callMe = name => { 
+    console.log(name);
+}
+```
+When just returning a value, you can use the following shortcut:
+
+```js
+const returnMe = name => name
+```
+
+That's equal to:
+
+```js
+const returnMe = name => { 
+    return name;
+}
+```
