@@ -3,6 +3,7 @@
 # Table of content ( click to navigate )
 - [let & const](#let-&-const)
 - [ES6 Arrow Functions](#ES6-Arrow-Functions)
+- [Exports & Imports](#Exports-&-Imports)
 
 
 </br>
@@ -101,3 +102,32 @@ const returnMe = name => {
     return name;
 }
 ```
+
+# Exports & Imports
+In React projects (and actually in all modern JavaScript projects), you split your code across multiple JavaScript files - so-called modules. You do this, to keep each file/ module focused and manageable.
+
+To still access functionality in another file, you need <code>export</code>  (to make it available) and <code>import</code>  (to get access) statements.
+
+You got two different types of exports: default (unnamed) and named exports:
+
+<code>default => export default ...;</code> 
+
+<code>named => export const someData = ...;</code> 
+
+You can import default exports like this:
+
+<code> import someNameOfYourChoice from './path/to/file.js'; </code>
+
+Surprisingly, someNameOfYourChoice  is totally up to you.
+
+Named exports have to be imported by their name:
+
+<code>import { someData } from './path/to/file.js';</code>
+
+A file can only contain one default and an unlimited amount of named exports. You can also mix the one default with any amount of named exports in one and the same file.
+
+When importing named exports, you can also import all named exports at once with the following syntax:
+
+<code>import { someData } from './path/to/file.js';</code>
+
+upToYou  is - well - up to you and simply bundles all exported variables/functions in one JavaScript object. For example, if you <code>export const someData = ...  (/path/to/file.js )</code> you can access it on upToYou  like this: upToYou.someData .
