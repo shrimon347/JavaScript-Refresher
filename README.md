@@ -4,8 +4,8 @@
 - [let & const](#let-&-const)
 - [ES6 Arrow Functions](#ES6-Arrow-Functions)
 - [Exports & Imports](#Exports-&-Imports)
-- [Classes](Classes)
-- [Spread & Rest Operator](Spread-&-Rest-Operator)
+- [Classes](#Classes)
+- [Spread & Rest Operator](#Spread-&-Rest-Operator)
 - [Destructuring](#Destructuring)
 
 
