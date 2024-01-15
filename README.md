@@ -2,6 +2,7 @@
 
 # Table of content ( click to navigate )
 - [let & const](#let-&-const)
+- [ES6 Arrow Functions](#ES6-Arrow-Functions)
 
 
 </br>
@@ -42,3 +43,11 @@ try {
 console.log(number);
 // Expected output: 42
 ```
+# ES6 Arrow Functions
+
+An arrow function expression is a compact alternative to a traditional function expression, with some semantic differences and deliberate limitations in usage:
+
+- Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
+- Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
+- Arrow functions cannot use yield within their body and cannot be created as generator functions.
+
