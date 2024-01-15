@@ -1,4 +1,4 @@
-# JavaScript-Refresher for React and also for begginers 
+# JavaScript-Refresher
 
 # Table of content ( click to navigate )
 - [let & const](#let-&-const)
